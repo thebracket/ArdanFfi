@@ -1,0 +1,9 @@
+[package]
+name = "ex01_gentle_intro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[build-dependencies]
+cc = { workspace = true }

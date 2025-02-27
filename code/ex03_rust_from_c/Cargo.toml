@@ -1,0 +1,9 @@
+[package]
+name = "ex03_rust_from_c"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"] # Will create a .so on Linux, .dylib on Mac, .dll on Windows
+
+[dependencies]

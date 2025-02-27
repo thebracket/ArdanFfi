@@ -1,0 +1,10 @@
+[package]
+name = "ex08_porting4"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[build-dependencies]
+cc = { workspace = true }
+bindgen = { workspace = true }

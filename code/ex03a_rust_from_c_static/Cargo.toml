@@ -1,0 +1,9 @@
+[package]
+name = "ex03a_rust_from_c_static"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["staticlib"] # Will create .a on Linux & Mac, .lib on Windows
+
+[dependencies]

@@ -1,0 +1,38 @@
+[package]
+name = "RustNations2025"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[workspace]
+members = [
+    "ex01_gentle_intro", # A Gentle Introduction to FFI
+    "ex02_auto_header",
+    "ex03_rust_from_c",
+    "ex04_rust_headers",
+    "ex05_porting1",
+    "ex06_porting2",
+    "ex07_porting3",
+    "ex08_porting4",
+    "ex09_cstruct1",
+    "ex10_cstruct2",
+    "ex11_cstruct3",
+    "ex13_cstring1",
+    "ex12_cstruct_free",
+    "ex14_accidental_libs",
+    "ex15_macros",
+    "ex16_void",
+    "ex17_union",
+    "ex18_rust_slice",
+    "ex03a_rust_from_c_static",
+    "ex19_rust_slice_struct",
+    "ex20_rust_concurency",
+    "ex21_async",
+    "simple_class",
+    "simple_callback"
+]
+
+[workspace.dependencies]
+cc = "1"
+bindgen = "0"

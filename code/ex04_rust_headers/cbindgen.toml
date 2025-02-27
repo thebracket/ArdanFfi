@@ -1,0 +1,2 @@
+language = "C"
+include_guard = "MY_PROJECT_BINDINGS_H"

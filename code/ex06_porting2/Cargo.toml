@@ -1,0 +1,10 @@
+[package]
+name = "ex06_porting2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[build-dependencies]
+cc = { workspace = true }
+bindgen = { workspace = true }

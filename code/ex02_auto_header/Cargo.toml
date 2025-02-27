@@ -1,0 +1,10 @@
+[package]
+name = "ex02_auto_header"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[build-dependencies]
+cc = { workspace = true }
+bindgen = { workspace = true }

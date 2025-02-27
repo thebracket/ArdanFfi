@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/code/ex01_gentle_intro/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex02_auto_header/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex03_rust_from_c/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex03a_rust_from_c_static/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex04_rust_headers/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex05_porting1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex06_porting2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex07_porting3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex08_porting4/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex09_cstruct1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex10_cstruct2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex11_cstruct3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex12_cstruct_free/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex13_cstring1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex14_accidental_libs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex15_macros/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex16_void/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex17_union/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex18_rust_slice/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex19_rust_slice_struct/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex20_rust_concurency/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex21_async/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/simple_callback/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/simple_class/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/code/target" />
+      <excludeFolder url="file://$MODULE_DIR$/manual/book" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

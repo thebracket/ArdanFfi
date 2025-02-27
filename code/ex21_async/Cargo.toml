@@ -1,0 +1,10 @@
+[package]
+name = "ex21_async"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["staticlib"] # Will create a .so on Linux, .dylib on Mac, .dll on Windows
+
+[dependencies]
+tokio = { version = "1.43.0", features = ["full"] }

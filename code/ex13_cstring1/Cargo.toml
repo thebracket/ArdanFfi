@@ -1,0 +1,10 @@
+[package]
+name = "ex13_cstring1"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[build-dependencies]
+cc = { workspace = true }
+bindgen = { workspace = true }
