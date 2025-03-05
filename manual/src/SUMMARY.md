@@ -52,5 +52,3 @@
     - [Interop Would be Nice](./07-cpp/interop_imagine.md)
     - [CXX.RS](./07-cpp/cxx_rs.md)
     - [CXX.RS The Other Way Around](./07-cpp/cxx_rs2.md)
-- [TODO: Python and PyO3](./pyo3.md)
-- [Wrap Up](./wrap.md)
