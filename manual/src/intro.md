@@ -8,6 +8,70 @@ This class is designed to teach you how to use Rust to interoperate with other
 languages. We will focus on C and C++ in this class, but the concepts can be 
 applied to any language that supports a C FFI.
 
+## GitHub Reference
+
+All of the files for this presentation are available here:
+[https://github.com/thebracket/ArdanFfi](https://github.com/thebracket/ArdanFfi)
+
+## Building this Guide Locally
+
+If you'd like to have a copy of this reference guide, clone the GitHub repo above and follow these steps in a terminal:
+
+```bash
+cargo install mdbook # If you aren't already an mdbook user
+cd ArdanFfi/manual
+mdbook serve
+```
+
+You can now open the URL [http://localhost:3000](http://localhost:3000) and have a locally served version of this guide.
+
 ## Outline
 
-(TODO)
+- [Getting Started with FFI](./01-ffi-intro/intro.md)
+  - [How to Avoid FFI](./01-ffi-intro/avoid-ffi.md)
+  - [FFI and Safety](./01-ffi-intro/safety.md)
+  - [What is FFI Anyway?](./01-ffi-intro/what-is-ffi.md)
+       - [A Gentle Start](./01-ffi-intro/a-gentle-start.md)
+           - [Hello C](./01-ffi-intro/hello-c.md)
+           - [Hello Rust](./01-ffi-intro/hello-rust.md)
+           - [Pop Quiz](./01-ffi-intro/pop-quiz.md)
+           - [Build the C Library](./01-ffi-intro/build-the-c-library.md)
+           - [Extern C Gets Old, Fast](./01-ffi-intro/extern-c-gets-old-fast.md)
+       - [How about some Rust from C?](./02-ffi-intro/intro.md)
+         - [Create A Portable Rust Function](./02-ffi-intro/rust_fn.md)
+              - [Let's Write some C](./02-ffi-intro/c01.md)
+              - [Static Linkage](./02-ffi-intro/c01a.md)
+              - [Auto-generating a C Header](./02-ffi-intro/c02.md)
+- [That Was Easy! Let's Go Home](./end_ffi_intro.md)
+- [Working with C in Rust](./03-c_in_rust/intro.md)
+    - [Our Porting Environment](./03-c_in_rust/setup.md)
+    - [Porting Our First Function](./03-c_in_rust/double_01.md)
+    - [C Types](./03-c_in_rust/c_types.md)
+        - [Matching C Types with FFI Types](./03-c_in_rust/c_types_ffi.md)
+        - [Using stdint.h Types](./03-c_in_rust/c_types_stdint.md)
+    - [C Structures](./03-c_in_rust/c_structs.md)
+        - [Simple Struct Usage](./03-c_in_rust/c_structs2.md)
+        - [Simple Struct Pointers](./03-c_in_rust/c_structs_3.md)
+        - [Pointers and Ownership](./03-c_in_rust/c_structs_4.md)
+            - [Good Old Free](./03-c_in_rust/c_structs_free.md)
+            - [Make a Box](./03-c_in_rust/c_structs_box.md)
+    - [C Strings](./04-c_strings/intro.md)
+        - [Sending Strings to C Functions](./04-c_strings/string_params.md)
+        - [Ownership](./04-c_strings/c_string_ownership.md)
+    - [Callbacks and Functions](./04-c_callbacks/intro.md)
+    - [And Now... Some Pain](./05-c_pain/intro.md)
+        - [Accidentally Including The World](./05-c_pain/accidental_include.md)
+        - [Macros](./05-c_pain/macros.md)
+        - [Into the Void](./05-c_pain/void.md)
+        - [Unions](./05-c_pain/unions.md)
+- [Working with Rust in C](./06-rust_in_c/intro.md)
+    - [Slices](./06-rust_in_c/slice1.md)
+    - [Slices with Structs](./06-rust_in_c/slice2.md)
+    - [Concurrency!](./06-rust_in_c/concurrency.md)
+        - [Yes, You Can Do That in C!](./06-rust_in_c/concurrency_in_c.md)
+    - [Async!](./06-rust_in_c/async.md)
+        - [Let's Try It](./06-rust_in_c/async2.md)
+- [C++](./07-cpp/intro.md)
+    - [Interop Would be Nice](./07-cpp/interop_imagine.md)
+    - [CXX.RS](./07-cpp/cxx_rs.md)
+    - [CXX.RS The Other Way Around](./07-cpp/cxx_rs2.md)
